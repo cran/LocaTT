@@ -1,4 +1,4 @@
-5fd8cc2c5e789f3b5bb8877b00659116 *DESCRIPTION
+b650990c556a20f90c1eff24fbc48957 *DESCRIPTION
 e0af75740d01b90a7f670c360ad1acb9 *NAMESPACE
 9d8d1a99de8123d36e4b070b3d30b3ad *R/binomial_test.R
 61605bac18b1bfbff184c71c3d980b5a *R/blast_command_found.R
@@ -25,7 +25,7 @@ a1bef30f912aaac2598558207c23cad7 *R/truncate_sequences.quality_score.R
 a3f142c2b49d73cef5717120b7a5bd63 *R/write.fastq.R
 c7cc113a1a239b73c560a52880cedc4b *R/zzz.R
 d2fa37306bd55c42e2940ad1b058887a *README.md
-9b82cf2651dc4f545999d15dfdb5fcd3 *inst/CITATION
+59ffff4640a7e792ab9b4e184e9db2ff *inst/CITATION
 4116fe953417c96aa6b5f4581096b5ae *inst/extdata/example_blast_database.fasta
 90cfa52759fcf97f7aac46ff9001897c *inst/extdata/example_blast_database.fasta.ndb
 a6c045b9f619ca27d68cbdc710d3891c *inst/extdata/example_blast_database.fasta.nhr

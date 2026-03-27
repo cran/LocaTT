@@ -1,27 +1,33 @@
 Package: LocaTT
 Title: Geographically-Conscious Taxonomic Assignment for Metabarcoding
-Version: 1.1.2
+Version: 1.2.0
 Authors@R: c(
-    person("Kenen", "Goodwin", email="urodelan@gmail.com", role=c("aut","cre"),
+    person(given="Kenen B", family="Goodwin",
+           email="urodelan@gmail.com", role=c("aut","cre"),
            comment=c(ORCID="0000-0002-9219-7693")),
-    person("Taal","Levi",role="aut")
+    person(given="Christopher", family="Cousins", role="ctb"),
+    person(given="Taal", family="Levi", role="ctb"),
+    person(given="Tiffany S", family="Garcia", role="ths")
     )
 Description: A bioinformatics pipeline for performing taxonomic
     assignment of DNA metabarcoding sequence data while considering
     geographic location. A detailed tutorial is available at
-    <https://urodelan.github.io/Local_Taxa_Tool_Tutorial/>.
+    <https://urodelan.github.io/LocaTT_Tutorial/>.
     A manuscript describing these methods is in preparation.
 License: GPL (>= 3)
 URL: https://github.com/Urodelan/LocaTT
 BugReports: https://github.com/Urodelan/LocaTT/issues
 Encoding: UTF-8
-RoxygenNote: 7.2.3
-Imports: utils, stats
+RoxygenNote: 7.3.3
+Imports: utils, stats, parallel
 Suggests: taxize
 NeedsCompilation: no
-Packaged: 2024-09-04 19:59:40 UTC; kenengoodwin
-Author: Kenen Goodwin [aut, cre] (<https://orcid.org/0000-0002-9219-7693>),
-  Taal Levi [aut]
-Maintainer: Kenen Goodwin <urodelan@gmail.com>
+Packaged: 2026-03-27 22:46:31 UTC; kenengoodwin
+Author: Kenen B Goodwin [aut, cre] (ORCID:
+    <https://orcid.org/0000-0002-9219-7693>),
+  Christopher Cousins [ctb],
+  Taal Levi [ctb],
+  Tiffany S Garcia [ths]
+Maintainer: Kenen B Goodwin <urodelan@gmail.com>
 Repository: CRAN
-Date/Publication: 2024-09-05 05:00:05 UTC
+Date/Publication: 2026-03-27 23:00:02 UTC
